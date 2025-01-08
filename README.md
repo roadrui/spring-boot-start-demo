@@ -8,7 +8,7 @@
 
 
 ## 注意事项
-1、spring-boot 3.x之后，自动配置不再使用spring.factories里面的配置了，改成了使用META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports 文件里面的配置；
+1、spring-boot 3.x之后，自动配置不再使用spring.factories里面的配置了改成了使用:META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports 文件里面的配置； <br/>
 2、不能使用 spring-boot的 maven plugin，因为会检查main类；
 
 ## 例子
